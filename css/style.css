@@ -1,0 +1,143 @@
+/*Remember: in Css, every element rests within a series of boxes.
+These boxes are defined from inside to outside: content, padding, border, margin.
+*/
+
+
+
+header{
+	/* font-family may hold several font names. If the browser
+	does not support the first font, it tries the next font.
+	Start with the font you want, and always end with a generic
+	family (such as "serif", "sans-serif", "cursive), to let the
+	browser pick a similar font in the generic family.*/
+	/* use "font:" to set all the font properties in one declaration.
+	font: font-style font-variant font-weight font-size/line-height font-family;*/
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background-color: #ffffff;
+	border-bottom-color: #cccccc;
+}
+
+/* may also define attributes for multiple classes/ids at once:
+eg p, h1, h2, #my-name {} */
+h1, h2{
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+#my-name{
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	font-size: 25px;
+	/*font-weight: 400 is normal, 700 is bold */
+	font-weight: 700;
+	/*color defines the text color*/
+	color: white;
+	text-align: center;
+	/*background color defines the content color*/
+	background-color:#4aaaa5;
+	/*"padding:" may have 1 - 4 values (units of px). If four values,
+	values define top, right, bottom, and left padding.
+	If three values, values define top padding, right & left padding,
+	and bottom padding.
+	If two values, values define top & bottom padding, and right
+	and left padding.
+	If one value, the value defines padding for all four sides. */
+	padding:35px;
+	margin-left: 100px;
+	float:left;
+}
+
+#page-links-menu{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	/* "display: inline" displays a list of links as a horizontal menu*/
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lime;
+}
+
+.middle-section{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#about-me{
+	width:650px;
+	/* may also use border: width style color; */
+	border:1px solid black;
+	border-radius: 3px;
+	padding: 15px;
+	float: left;
+	/* "clear:both" specifies floating elements are not allowed to float on left or right of this element*/
+	/*clear:both;*/
+}
+
+#photo-jonathon{
+	width: 125px;
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+
+#second-paragraph{
+}
+
+#contact-me{
+	width: 270px;
+	font-size: 15px;
+	text-align: center;
+	padding:7px;
+	border:1px solid black;
+	border-radius:3px;
+	width:30%;
+	float: left;
+}
+
+.logo-link{
+	width: 35px;
+}
+
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.middle-section{
+	background-image: url("./images/gray_jean/gray_jean/gray_jean.png");
+	background-color: lime;
+}
+
+#footer-topbar{
+	width: 960px;
+	height:5px;
+	background-color: #4aaaa5;
+	clear:both;
+	display: none;
+}
+
+#main-footer{
+	width: 960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	background-color: #666666;
+	padding: 25px;
+	clear: both;
+	border-top: 5px solid #4aaaa5;
+}
