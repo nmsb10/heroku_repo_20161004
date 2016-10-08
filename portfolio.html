@@ -8,26 +8,36 @@
 
 <body>
 
-	<div class="wrapper">
+<div class="wrapper">
 	<header>
 		<div id="my-name">Jonathon Nagatani
 		</div>
 		<nav id="page-links-nav">
-			<a id="nav-link" href="index.html#about-me" title="about Jonathon">About</a> |
-			<a id="nav-link" href="portfolio.html" title="Jonathon's porfolio">Portfolio</a> |
-			<a id="nav-link" href="contact.html" title="contact Jonathon">Contact</a>
+			<a class="nav-link" href="index.html#about-me" title="about Jonathon">About</a> |
+			<a class="nav-link" href="portfolio.html" title="Jonathon's porfolio">Portfolio</a> |
+			<a class="nav-link" href="contact.html" title="contact Jonathon">Contact</a>
 		</nav>
 
 	</header>
+
+	<!-- anchor tag (source is the photo), photo inside of this link, div for a "heading", heading has negative top margin, z index eg 3 is on top of 2-->
 	
-	<div class="middle-section">
-		<div id="portfolio">
+	<div class="middle-section" style="clear:both">
+		<section class="main-content">
 			<h2 title="Jonathon's Portfolio">Jonathon's Portfolio</h2>
 			<hr>
 			<div class="testphotolink">
 			<h3>test text</h3>
 			</div>
 			<div class="portfolio-links-line">
+
+			<div class="new-image-link">
+				<a href="http://www.jonathonnagatani.com" target="_blank" title="hangman game by jonathon"><img class="portfolio-project-photo" src="./images/portfolio01.jpg" alt="hangman game by jonathon">
+				<h3>Hangman</h3>
+				</a>
+			</div>
+
+
 				<div class="portfolio-link">
 					<img src="./images/photo jn.jpg" alt="hangman game by Jonathon" title="hangman" class="portfolio-link-image">
 					<h3 class="portfolio-link-title"> Hangman
@@ -39,19 +49,19 @@
 				</div>
 			</div>
 		
-		</div>
+		</section>
 		<div id="contact-me">
 			<h2>Connect with Me</h2>
 			<hr width="80%">
-			<a href="GIT LAB PROFILE" target="_blank" title="nmsb10"><img class="logo-link" src="./images/logo github.png"></a>
-			<a href="https://www.linkedin.com/in/jonathonnagatani" target="_blank" title="jonathon on linkedin"><img class= "logo-link" src="./images/logo linkedin.png"></a>
-			<a href="STACK OVERFLOW PROFILE" target="_blank" title="jonathon on stack overflow"><img class="logo-link" src="./images/logo stack overflow.png"></a>
+			<a href="https://github.com/nmsb10" target="_blank" title="nmsb10"><img class="logo-link" src="./images/logo github.png"></a>
+			<a href="https://www.linkedin.com/in/jonathonnagatani" target="_blank" title="jonathon on linkedin"><img id="logo-link-linkedinsmaller" src="./images/logo linkedin.png"></a>
+			<a href="http://stackoverflow.com/users/6828743/happytoo?tab=profile" target="_blank" title="jonathon on stack overflow"><img class="logo-link" src="./images/logo stack overflow.png"></a>
 		</div>
+		<!-- put these here for the ryan fait sticky footer-->
+		<br style="clear:both" />
+		<div class="push"></div>
 	</div>
-
-	<br style="clear:both">
-	<div class="push"></div>
-	</div>
+</div>
 
 	<footer>
 		<div id="main-footer">Copyright (c) 2016 Jonathon Nagatani. All rights reserved.</div>
