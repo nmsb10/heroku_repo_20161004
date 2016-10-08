@@ -124,10 +124,6 @@ li a:hover {
 
 .middle-section{
 	background-image: url("../images/gray_jean.png");
-	/*
-	background-color: lime;
-	display:inline;
-	*/
 }
 
 .main-content{
@@ -135,7 +131,7 @@ li a:hover {
 	font-size:18px;
 	background-color:#ffffff;
 	padding: 15px 25px 25px 25px;
-	/* may also use border: width style color; */
+	/* border: width style color; */
 	border:1px solid #cccccc;
 	border-radius: 7px;
 	margin-top:30px;
@@ -214,47 +210,6 @@ li a:hover {
 /*	these rgba values correspond to background-color: #4aaaa5*/
 	background: rgba(74,170,165,0.57);
 	padding: 10px;
-}
-
-
-
-
-
-
-.portfolio-link{
-	width:280px;
-	height: 220px;
-	float:left;
-}
-
-.portfolio-link-image{
-	width:280px;
-	height: 220px;
-}
-
-.portfolio-link-title{
-	width: 250px;
-	font-size: 25px;
-	color: white;
-	text-align: center;
-	font-weight: 300;
-	background-color:#4aaaa5;
-	padding: 15px;
-	margin-top:100px;
-	display:block;
-}
-
-.testphotolink{
-	background-image: url("../images/photo jn.jpg");
-	width: 250px;
-	height: 220px;
-	color: white;
-	text-align: center;
-	font-weight: 300;
-	background-color:#4aaaa5;
-	padding: 15px;
-	margin-top:100px;
-	display:block;
 }
 
 form{
