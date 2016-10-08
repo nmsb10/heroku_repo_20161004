@@ -177,12 +177,49 @@ li a:hover {
 
 .portfolio-links-line{
 	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.new-image-link-column1{
+	width: 290px;
+	height: 193.333px;
+	position: relative;
+	float:left;
+}
+
+.new-image-link-column2{
+	width: 290px;
+	height: 193.333px;
+	position: relative;
+	margin-left:30px;
+	margin-bottom:45px;
+	float:left;
 }
 
 .portfolio-project-photo{
-	width: 290px;
-	height: 193.333px;
+	position: relative;
+	width: 100%;
 }
+
+.portfolio-link-banner{
+	position:absolute;
+	top:110px;
+	left: 0;
+/*	width should be 100% according to
+	https://css-tricks.com/text-blocks-over-image/*/
+	width: 290px;
+	font-size: 25px;
+	color:white;
+	text-align: center;
+/*	these rgba values correspond to background-color: #4aaaa5*/
+	background: rgba(74,170,165,0.57);
+	padding: 10px;
+}
+
+
+
+
+
 
 .portfolio-link{
 	width:280px;
